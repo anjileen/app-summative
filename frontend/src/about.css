@@ -1,0 +1,26 @@
+.about-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.aboutDescription {
+    max-width: 45ch;
+}
+.column-one {
+    width: 50%;
+    margin: 1em 1em 15% 1em;
+}
+.column-two {
+    width: 50%;
+    margin: 1em 1em 15% 1em;
+}
+.about-cta a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+@media (max-width: 701px) {
+    .about-container {
+        flex-direction: column;
+    }
+}
